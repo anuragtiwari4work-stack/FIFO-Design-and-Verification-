@@ -12,7 +12,7 @@ The verification environment utilizes a class-based structure, including a Gener
 | `testbench.sv` | **Verification Environment.** Contains the SystemVerilog interface, transaction class, and all UVM-like verification components. | SystemVerilog | 
 | `README.md` | This file. | Markdown | 
 
-## 2. Design Under Test (`FIFO.v`)
+## 2. Design Under Test (`FIFO`)
 
 The FIFO is a **Synchronous FIFO**, meaning read and write operations are controlled by the **same clock signal (`clk`)**.
 
