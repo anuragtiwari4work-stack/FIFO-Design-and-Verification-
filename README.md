@@ -8,7 +8,7 @@ The verification environment utilizes a class-based structure, including a Gener
 
 | File | Description | Language | 
 | :--- | :--- | :--- | 
-| `design.v` | **Design Under Test (DUT).** Contains the synchronous FIFO module logic. | Verilog | 
+| `design.sv` | **Design Under Test (DUT).** Contains the synchronous FIFO module logic. | Verilog | 
 | `testbench.sv` | **Verification Environment.** Contains the SystemVerilog interface, transaction class, and all UVM-like verification components. | SystemVerilog | 
 | `README.md` | This file. | Markdown | 
 
